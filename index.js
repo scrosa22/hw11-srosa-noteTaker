@@ -2,10 +2,10 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 
-const notesDatabase = require("./db/db.json");
+// const notesDatabase = require("./db/db.json");
 const app = express();
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.port || 3000;
 
 // Middleware
 app.use(express.json());
